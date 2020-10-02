@@ -2,181 +2,225 @@
 <html>
     <!-- Head settings -->
     <head>
+        <style>
+            .project {
+                text-decoration: underline;
+            }
+
+            #project-thomas-more {
+                font-style: italic;
+            }
+        </style>
     </head>
 
     <!-- What the visitor will actually see -->
     <body>
-        <h1>
-            This is my portfolio, Collin Van der Vorst.
-        </h1>
 
-        <ul type="square">
-            <li>
-                <a href="./index.html">
-                    home
-                </a>
-            </li>
+        <iframe src="https://www.teamleader.fr/" width="100%" height="500px">
+        </iframe>
 
-            <li>
-                Projects
-                <ul>
+        <!-- Navigation -->
+        <header>
+        
+            <nav id="navigation" class="navigation" style="background-color: red;">
+                <ul type="square">
                     <li>
-                        <a href="https://teamleader.com">
-                            Teamleader
+                        <a href="./index.html">
+                            home
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://teamleader.com">
-                            Teamleader
+                        Projects
+                        <ul>
+                            <li>
+                                <a href="https://teamleader.com">
+                                    Teamleader
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://teamleader.com">
+                                    Teamleader
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="./contact.html">
+                            contact
                         </a>
                     </li>
                 </ul>
-            </li>
+            </nav>
+        </header>
 
-            <li>
-                <a href="./contact.html">
-                    contact
+        <main>
+            <!-- Introduction -->
+            <div id="introduction" class="intro" style="background-color: yellow;">
+                <h1>
+                    This is my portfolio, <span style="background-color:pink">Collin</span> Van der <span style="background-color:blue">Vorst</span>.
+                </h1>
+
+                <ol>
+                    <li>
+                        Go to shop, you lazy bastard
+                    </li>
+
+                    <li>
+                        Mix flour with eggs
+                    </li>
+
+                    <li>
+                        Eat it with joy
+                    </li>
+                </ol>
+
+                <img src="./images/mcgregor.jpg" width="300" alt="Crazy mcrgregor" title="Crazy mcrgregor"/>
+
+                <a href="#contact">
+                    Send to me contact
                 </a>
-            </li>
-        </ul>
 
-        <ol>
-            <li>
-                Go to shop, you lazy bastard
-            </li>
+                <br/>
+                <br/>
 
-            <li>
-                Mix flour with eggs
-            </li>
+                <a href="./contact.html">
+                    Contact me
+                </a>
 
-            <li>
-                Eat it with joy
-            </li>
-        </ol>
+                <br/>
+                <br/>
 
-        <img src="./images/mcgregor.jpg" width="300" alt="Crazy mcrgregor" title="Crazy mcrgregor"/>
+                <a href="https://www.linkedin.com/in/collin-van-der-vorst/" target="_blank">
+                    Visit my awesome linkedin profile
+                </a>
 
-        <a href="#contact">
-            Send to me contact
-        </a>
+                <br/>
+                <br/>
 
-        <br/>
-        <br/>
+                <a href="mailto:collin.vandervorst@thomasmore.be">
+                    Mail me, I need it.
+                </a>
 
-        <a href="./contact.html">
-            Contact me
-        </a>
+                <br/>
+                <br/>
 
-        <br/>
-        <br/>
+                <a href="tel:0475884939">
+                    Call me, I am so alone.
+                </a>
+            </div>
 
+            <!-- Professional life -->
+            <div id="professional" class="professional" style="background-color: green;">
+                <h2>
+                    My professional life
+                </h2>
 
+                <table border="1" cellspacing="0" cellpadding="10">
+                    <!-- heading columns -->
+                    <tr>
+                        <!-- column 1 -->
+                        <th>
+                            Projectname
+                        </th>
 
-        <a href="https://www.linkedin.com/in/collin-van-der-vorst/" target="_blank">
-            Visit my awesome linkedin profile
-        </a>
+                        <!-- column 2 -->
+                        <th>
+                            Description
+                        </th>
 
-        <br/>
-        <br/>
+                        <!-- column 3 -->
+                        <th>
+                            Year
+                        </th>
+                    </tr>
 
-        <a href="mailto:collin.vandervorst@thomasmore.be">
-            Mail me, I need it.
-        </a>
+                    <!-- data -->
+                    <tr>
+                        <td>
+                            Thomas more website
+                        </td>
 
-        <br/>
-        <br/>
+                        <td>
+                            Thomas more website was built with awesomness
+                        </td>
 
-        <a href="tel:0475884939">
-            Call me, I am so alone.
-        </a>
+                        <td rowspan="2">
+                            2020
+                        </td>
+                    </tr>
 
-        <!-- 
-            //////////////////////////////
-            This section is going to be about professional
-            Please check this
-            //////////////////////////////
-        -->
-        <h2>
-            My professional life
-        </h2>
+                    <tr>
+                        <td>
+                            Teamleader
+                        </td>
 
-        <table border="1" cellspacing="0" cellpadding="10">
-            <!-- heading columns -->
-            <tr>
-                <!-- column 1 -->
-                <th>
-                    Projectname
-                </th>
+                        <td>
+                            Teamleader website in craftcms
+                        </td>
+                    </tr>
 
-                <!-- column 2 -->
-                <th>
-                    Description
-                </th>
+                    <tr>
+                        <td colspan="3">
+                            Made by my 😍
+                        </td>
+                    </tr>
+                </table>
 
-                <!-- column 3 -->
-                <th>
-                    Year
-                </th>
-            </tr>
+                <h3>
+                    Projects
+                </h3>
 
-            <!-- data -->
-            <tr>
-                <td>
-                    Thomas more website
-                </td>
+                <p>
+                    Bacon ipsum dolor amet short loin porchetta <u>pig</u>, ham kielbasa bresaola fatback landjaeger t-bone prosciutto. Swine <strong>hamburger</strong> turducken fatback, ham hock venison spare ribs bresaola. 
+                    <br/>
+                    <br/>
+                    Sausage cupim <em>meatball</em> turducken chislic short ribs prosciutto tenderloin kielbasa. Pork sausage landjaeger, ribeye ham tongue flank sirloin ham hock burgdoggen fatback alcatra picanha. Flank kielbasa spare ribs, pig picanha chislic meatball jerky shoulder bresaola.
+                </p>
 
-                <td>
-                    Thomas more website was built with awesomness
-                </td>
+                <!-- projects overview -->
+                <div id="projects-overview">
+                    <div class="project">
+                        <h4> 
+                            Teamleader project
+                        </h4>
+                    </div>
 
-                <td rowspan="2">
-                    2020
-                </td>
-            </tr>
+                    <div class="project" id="project-thomas-more">
+                        <h4> 
+                            Thomas more project
+                        </h4>
+                    </div>
+                </div>
 
-            <tr>
-                <td>
-                    Teamleader
-                </td>
+                <hr/>
 
-                <td>
-                    Teamleader website in craftcms
-                </td>
-            </tr>
+                <h3>
+                    Skills
+                </h3>
+            </div>
 
-            <tr>
-                <td colspan="3">
-                    Made by my 😍
-                </td>
-            </tr>
-        </table>
+            <!-- Personal life -->
+            <div id="personal" class="personal"  style="background-color: orange;">
+                <h2>
+                    Personal life
+                </h2>
+            </div>
 
-        <h3>
-            Projects
-        </h3>
+            <!-- Contact -->
+            <h2 id="contact">
+                Contact
+            </h2>
+        </main>
 
-        <p>
-            Bacon ipsum dolor amet short loin porchetta <u>pig</u>, ham kielbasa bresaola fatback landjaeger t-bone prosciutto. Swine <strong>hamburger</strong> turducken fatback, ham hock venison spare ribs bresaola. 
-            <br/>
-            <br/>
-            Sausage cupim <em>meatball</em> turducken chislic short ribs prosciutto tenderloin kielbasa. Pork sausage landjaeger, ribeye ham tongue flank sirloin ham hock burgdoggen fatback alcatra picanha. Flank kielbasa spare ribs, pig picanha chislic meatball jerky shoulder bresaola.
-        </p>
+        <footer>
+            Legal thingss
 
-        <hr/>
-
-        <h3>
-            Skills
-        </h3>
-
-        <!-- Personal life -->
-        <h2>
-            Personal life
-        </h2>
-
-        <!-- Contact -->
-        <h2 id="contact">
-            Contact
-        </h2>
+            <address>
+                Dendermonde city
+            </addres>
+        </footer>
     </body>
 </html>
