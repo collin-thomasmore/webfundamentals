@@ -171,7 +171,7 @@
 
             <br/>
 
-            <select name="gender_of_my_partner" id="gender_of_my_partner">
+            <select name="gender_of_my_partner" id="gender_of_my_partner" multiple>
                 <option value="male">
                     Male
                 </option>
@@ -188,7 +188,19 @@
             <br/>
             <br/>
 
-            <!-- Reset button --> 
+            <!-- About me -->
+            <label for="about_me">
+                More about me
+            </label>
+
+            <br/>
+
+            <textarea id="about_me" name="about_me" rows="20" cols="100">Hallo ik ben standaard default tekst</textarea>
+
+            <br/>
+            <br/>
+
+            <!-- Reset button -->
             <input type="reset" value="wist alles maar" />
 
             <br/>
@@ -197,5 +209,10 @@
             <!-- This is our submit button, this is required to trigger the form -->
             <input type="submit" value="Create a profile"/>
         </form>
+
+        <!-- Custom button -->
+        <button onClick="alert('hi')">
+            Say hi
+        </button>
     </body>
 </html>
