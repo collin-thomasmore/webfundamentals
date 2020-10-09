@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+    <!-- settings for the browser/seo/.. -->
+    <head>
+    </head>
+
+    <!-- what the user will see -->
+    <body>
+        <form action="./index.html" method="GET">
+            <!-- Username -->
+            <label for="username">
+                Username(*)
+            </label>
+
+            <br/>
+
+            <input type="text" id="username" name="username" placeholder="Give me your username, please." required/>
+
+            <br/>
+            <br/>
+
+            <!-- Password -->
+            <label for="user-password">
+                Password
+            </label>
+
+            <br/>
+            
+            <input type="password" id="user-password" name="password"/>
+
+            <br/>
+            <br/>
+
+            <!-- Age -->
+            <label for="age">
+                Age
+            </label>
+
+            <br/>
+
+            <input type="number" id="age" name="age" min="0" max="100"/>
+
+            <br/>
+            <br/>
+
+            <!-- Email -->
+            <label for="mail">
+                E-mail
+            </label>
+
+            <br/>
+
+            <input type="email" id="mail" name="mail" />
+
+            <br/>
+            <br/>
+
+            <!-- Phone -->
+            <label for="phonenumber">
+                Telephone
+            </label>
+
+            <br/>
+
+            <input type="tel" id="phonenumber" name="phonenumber" />
+
+            <br/>
+            <br/>
+
+            <!-- Date of birth -->
+            <label for="dob">
+                Date of birth
+            </label>
+
+            <br/>
+
+            <input type="date" id="dob" name="date-of-birth"/>
+
+            <br/>
+            <br/>
+
+            <!-- Profile picture -->
+            <label for="profilepicture">
+                Profile picture
+            </label>
+
+            <br/>
+
+            <input type="file" id="profilepicture" name="profilepicture" multiple/>
+
+            <br/>
+            <br/>
+
+            <!-- Hidden -->
+            <input type="hidden" name="token" value="token1224455" />
+
+            <!-- Colors -->
+            <label for="color">
+                What is your favorite color
+            </label>
+
+            <br/>
+
+            <input type="color" id="color" name="color"/>
+
+            <br/>
+            <br/>
+
+            <!-- Facebook profile -->
+            <label for="facebook-url">
+                Facebook
+            </label>
+
+            <br/>
+
+            <input type="url" id="facebook-url" name="facebook-url" />
+            
+            <br/>
+            <br/>
+
+            <!-- Gender --> 
+            <input type="radio" name="gender" value="male" id="gender_male"/>
+            <label for="gender_male">
+                Male
+            </label>
+
+            <br/>
+
+            <input type="radio" name="gender" value="female" id="gender_female" checked/> 
+            <label for="gender_female">
+                Female
+            </label>
+
+            <br/>
+
+            <input type="radio" name="gender" value="x" id="gender_x"/>
+            <label for="gender_x">
+                Ik weet het zelf ook niet meer
+            </label>
+
+            <br/>
+            <br/>
+
+            <!-- Interested in -->
+            <input type="checkbox" name="interested_in_football" id="interested_in_football" checked/>
+            <label for="interested_in_football">
+                Footbal
+            </label>
+
+            <br/>
+
+            <input type="checkbox" name="interested_in_dancing" id="interested_in_dancing" checked/>
+            <label for="interested_in_dancing">
+                Dancing
+            </label>
+
+            <br/>
+
+            <input type="checkbox" name="interested_in_nothing" id="interested_in_nothing" />
+            <label for="interested_in_nothing">
+                Nothing at all
+            </label>
+
+            <br/>
+            <br/>
+
+            <!-- Gender of my partner Dropdown/select -->
+            <label for="gender_of_my_partner">
+                Gender of my partner
+            </label>
+
+            <br/>
+
+            <select name="gender_of_my_partner" id="gender_of_my_partner">
+                <option value="male">
+                    Male
+                </option>
+
+                <option value="female">
+                    Female
+                </option>
+
+                <option value="x">
+                    X
+                </option>
+            </select>
+
+            <br/>
+            <br/>
+
+            <!-- Reset button --> 
+            <input type="reset" value="wist alles maar" />
+
+            <br/>
+            <br/>
+
+            <!-- This is our submit button, this is required to trigger the form -->
+            <input type="submit" value="Create a profile"/>
+        </form>
+    </body>
+</html>
