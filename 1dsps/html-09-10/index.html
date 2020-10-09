@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+    <!-- Settings for the browser -->
+    <head>
+
+    </head>
+
+    <!-- What the user look at -->
+    <body>
+        <!-- this is the start of our form -->
+        <form action="./index.html" method="GET">
+            <!-- Name -->
+            <label for="name">
+                Name
+            </label>
+
+            <br/>
+
+            <input type="text" name="name" id="name" placeholder="Please give me your name" required/>
+
+            <br/>
+            <br/>
+
+            <!-- Age -->
+            <label for="age">
+                Age
+            </label>
+
+            <br/>
+
+            <input type="number" id="age" name="age" min="0" max="110" />
+
+            <br/>
+            <br/>
+
+            <!-- E-mail -->
+            <label for="mail">
+                E-mail
+            </label>
+
+            <br/>
+
+            <input type="email" id="mail" name="user_mail"/>
+            
+            <br/>
+            <br/>
+
+            <!-- Personal website -->
+            <label for="personal_website">
+                Personal website
+            </label>
+
+            <br/>
+
+            <input type="url" id="personal_website" name="personal_website" />
+
+            <br/>
+            <br/>
+
+            <!-- Date of birth -->
+            <label for="dob">
+                Date of birth
+            </label>
+
+            <br/>
+
+            <input type="date" id="dob" name="date_of_birth" />
+
+            <br/>
+            <br/>
+
+            <!-- Profile picture -->
+            <label for="profile_pic">
+                Profile picture
+            </label>
+
+            <br/>
+
+            <input type="file" id="profile_pic" name="profile_pic"/>
+
+            <br/>
+            <br/>
+
+            <!-- My favorite color -->
+            <label for="favorite_color">
+                My favorite color is:
+            </label>
+
+            <br/>
+
+            <input type="color" id="favorite_color" name="color"/>
+
+            <br/>
+            <br/>
+
+            <!-- Tel-->
+            <label for="tel">
+                Telephone number
+            </label>
+
+            <br/>
+
+            <input type="tel" id="tel" name="tel"/>
+
+            <br/>
+            <br/>
+
+            <!-- Password -->
+            <label for="password">
+                Password (required)
+            </label>
+
+            <br/>
+
+            <input type="password" id="password" name="password" />
+
+            <br/>
+            <br/>
+            
+            <!-- Button to submit the form -->
+            <input type="submit" value="Create my profile"/>
+
+            <!-- clear all of the fields of the form -->
+            <input type="reset" value="Clear everything" />
+        </form>
+    </body>
+</html>
