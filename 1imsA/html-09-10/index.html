@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Settings for the browser -->
+    </head>
+
+    <body>
+        <!-- What visitors will see-->
+        <form action="./index.html" method="GET">
+            <!-- Firstname block -->
+            <label for="firstname">
+                Firstname
+            </label>
+            <input type="text" id="firstname" name="firstname" value="Jan" placeholder="Fill in your name" required/>
+           
+            <br/>
+            <br/>
+
+            <!-- Lastname block -->
+            <label for="lastname">
+                Lastname
+            </label>
+            <input type="text" id="lastname" name="lastname" placeholder="Fill in your lastname" />
+
+            <br/>
+            <br/>
+
+            <!-- Password block -->
+            <label for="password">
+                Password
+            </label>
+            <input type="password" id="password" name="password" />
+
+            <br/>
+            <br/>
+
+            <!-- Age block -->
+            <label for="age">
+                What is your age?
+            </label>
+            <input type="number" id="age" name="mental_age" />
+
+            <br/>
+            <br/>
+
+            <!-- Resume -->
+            <label for="resume">
+                Resume
+            </label>
+            <input type="file" id="resume" name="resume_file" />
+
+            <br/>
+            <br/>
+
+            <!-- Mail -->
+            <label for="e-mail">
+                E-mail
+            </label>
+            <input 
+                type="email" 
+                id="e-mail" 
+                name="e-mail"
+            />
+
+            <br/>
+            <br/>
+
+            <!-- GSM -->
+            <label for="tel">
+                GSM
+            </label>
+            <input type="tel" id="tel" name="gsm" />
+
+            <!-- Hidden field -->
+            <input type="hidden" name="interested_in" value="cars" />
+
+            <br/>
+            <br/>
+            
+            <!-- Date of birth -->
+            <label for="dob">
+                Date of birth
+            </label>
+            <input type="date" name="date_of_birth" id="dob" />
+
+            <br/>
+            <br/>
+
+            <!-- Gender -->
+            <input type="radio" name="gender" value="male" id="gender_male" checked>
+            <label for="gender_male">
+                male
+            </label>
+
+            <br/>
+
+            <input type="radio" name="gender" value="female" id="gender_female">
+            <label for="gender_female">
+                female
+            </label>
+
+            <br/>
+
+            <input type="radio" name="gender" value="x" id="gender_x">
+            <label for="gender_x">
+                X
+            </label>
+
+            <br/>
+            <br/>
+
+            <!-- Skills -->
+            <input type="checkbox" id="skills_programming" name="skills_programming"/>
+            <label for="skills_programming">
+                hardcore programming
+            </label>
+
+            <br/>
+
+            <input type="checkbox" id="skills_google" name="skills_google"/>
+            <label for="skills_google">
+                searching on google
+            </label>
+
+            <br/>
+
+            <input type="checkbox" id="skills_designers" name="skills_designers"/>
+            <label for="skills_designers">
+                making it fancy
+            </label>
+
+            <br/>
+            <br/>
+
+            <!-- My favorite color -->
+            <label for="color">
+                My favorite color is
+            </label>
+
+            <input type="color" id="color" name="color"/>
+
+            <br/>
+            <br/>
+
+            <!-- My grade -->
+            <label for="grade">
+                Grade
+            </label>
+            <input type="range" id="grade" name="grade" min="0" max="10" value="9"/>
+
+            <br/>
+            <br/>
+
+            <!-- Comment section -->
+            <label for="comment">
+                Comment
+            </label>
+            <br/>
+            <textarea name="comment" id="comment" rows="10" cols="10">Amai die les is interessant</textarea>
+
+            <br/>
+            <br/>
+
+            <!-- Gender partner -->
+            <label for="gender_partner">
+                Gender of your partner
+            </label>
+
+            <br/>
+
+            <select name="gender_of_partner" id="gender_partner" multiple>
+                <option value="f">
+                    Female
+                </option>
+
+                <option value="m">
+                    Male
+                </option>
+
+                <option value="x">
+                    X
+                </option>
+            </select>
+            
+            <br/>
+            <br/>
+
+            <!-- Sum -->
+            <label for="number1">
+                Number 1
+            </label>
+            <input type="number" id="number1" name="number1" />
+
+            +
+
+            <label for="number2">
+                Number 2
+            </label>
+            <input type="number" id="number2" name="number2" />
+
+            <br/>
+
+            <output for="number1 number2">
+            <br/>
+            <br/>
+
+            <!-- Sends the form to the action, is required -->
+            <input type="submit" value="Send message"/>
+        </form>
+    </body>
+</html>
