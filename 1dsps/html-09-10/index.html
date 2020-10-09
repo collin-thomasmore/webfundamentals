@@ -116,7 +116,87 @@
 
             <br/>
             <br/>
+
+            <!-- Gender -->
+            <input type="radio" name="gender" value="female" id="gender_female" checked />
+            <label for="gender_female">
+                Female
+            </label>
+
+            <br/>
+
+            <input type="radio" name="gender" value="male" id="gender_male"/>
+            <label for="gender_male">
+                Male
+            </label>
+
+            <br/>
+
+            <input type="radio" name="gender" value="x" id="gender_x"/>
+            <label for="gender_x">
+                X
+            </label>
+
+            <br/>
+            <br/>
+
+            <!-- Hobbies -->
+            <input type="checkbox" name="hobby_football" id="hobby_football" />
+            <label for="hobby_football">
+                Football
+            </label>
+
+            <br/>
+
+            <input type="checkbox" name="hobby_dancing" id="hobby_dancing"/>
+            <label for="hobby_dancing">
+                Dancing
+            </label>
+
+            <br/>
+
+            <input type="checkbox" name="hobby_nothingatall" id="hobby_nothingatall" />
+            <label for="hobby_nothingatall">
+                Nothing at all
+            </label>
+
+            <br/>
+            <br/>
+
+            <!-- Gender of the partner Select/dropdown -->
+            <label for="gender_of_partner">
+                Gender of your partner
+            </label>
+            <br/>
+            <select id="gender_of_partner" name="gender_of_partner">
+                <option value="male">
+                    Handsome male
+                </option>
+
+                <option value="female">
+                    Sexy female
+                </option>
+
+                <option value="x">
+                    You don't know X
+                </option>
+            </select>
+
+            <br/>
+            <br/>
+
+            <!-- comments -->
+            <label for="comment">
+                Give me a note
+            </label>
+
+            <br/>
             
+            <textarea name="comment" id="comment"></textarea>
+
+            <!-- Hidden fields -->
+            <input type="hidden" name="customer_id" value="55"/>
+
             <!-- Button to submit the form -->
             <input type="submit" value="Create my profile"/>
 
