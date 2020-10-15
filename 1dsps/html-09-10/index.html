@@ -2,11 +2,30 @@
 <html>
     <!-- Settings for the browser -->
     <head>
+        <title>
+            Tinder account profile
+        </title>
+        <meta name="description" content="Thomas More is klaar om samen met jou de stap naar het hoger onderwijs te zetten. Ontdek al onze verschillende opleidingsmogelijkheden in al onze campussen. business & tourism. tech & it. interior & design. life sciences & chemistry. media & communication.">
 
+        <meta name="keywords" content="Tinder, dating, love">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <!-- What the user look at -->
     <body>
+        <img src="./" />
+
+        <video>
+            <source src="./video.mp4" type="video/mp4">
+            <source src="./video.ogg" type="video/ogg">
+            Your browser sucks, it doesn't render videos
+        </video>
+
+        <audio>
+            <source src="./video.mp3" type="audio/mp3">
+            Your browser sucks, it doesn't render audios
+        </audio>
+
         <!-- this is the start of our form -->
         <form action="./index.html" method="GET">
             <!-- Name -->
@@ -168,7 +187,7 @@
                 Gender of your partner
             </label>
             <br/>
-            <select id="gender_of_partner" name="gender_of_partner">
+            <select id="gender_of_partner" name="gender_of_partner" multiple>
                 <option value="male">
                     Handsome male
                 </option>
@@ -191,8 +210,8 @@
             </label>
 
             <br/>
-            
-            <textarea name="comment" id="comment"></textarea>
+
+            <textarea name="comment" id="comment" rows="10" cols="10"></textarea>
 
             <!-- Hidden fields -->
             <input type="hidden" name="customer_id" value="55"/>
@@ -202,6 +221,11 @@
 
             <!-- clear all of the fields of the form -->
             <input type="reset" value="Clear everything" />
+
+            <!-- Button -->
+            <button>
+                Click here
+            </button>
         </form>
     </body>
 </html>
