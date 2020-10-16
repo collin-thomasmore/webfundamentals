@@ -1,0 +1,66 @@
+.bill {
+    width: 250px;
+    height: 250px;
+
+    background-color: yellow;
+    background-image: url('https://www.euractiv.com/wp-content/uploads/sites/2/2018/10/Gates_EUflag-800x450.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    background-size: cover;
+
+    /* Borders */
+    border-width: 10px;
+    border-style: solid;
+    border-color: blue;
+
+    border: 10px solid blue;
+
+    border-radius: 50px;
+
+    border-radius: 50%;
+}
+
+.heading1 {
+    font-family: "Piedra", "Arial", "Helvetica", sans-serif;
+
+    font-size: 60px;
+
+    color: blue;
+
+    text-decoration: underline;
+
+    text-transform: lowercase;
+
+    letter-spacing: -1px;
+
+    line-height: 125%;
+
+    text-shadow: 32px 20px 2px rgba(187, 150, 150, 1);
+}
+
+.heading1:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: paleturquoise;
+}
+
+a:hover {
+    color: firebrick;
+    cursor: pointer;
+}
+
+a:active {
+    color: black;
+}
