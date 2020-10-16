@@ -1,0 +1,65 @@
+h1, h2 {
+    background-color: pink;
+    /* display: inline; */
+}
+
+h2 {
+    visibility: visible;
+}
+
+.card {
+    display: inline-block;
+
+    height: 300px;
+    width: 300px;
+}
+
+/* Positioning */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.numbers {
+    background-color: lightgrey;
+    font-size: 36px;
+    padding: 20px;
+
+    /* float:left; */
+
+    margin-top: 100px;
+
+    /* position: fixed; */
+    top: 0;
+}
+
+.one {
+    background-color: lightpink;
+    /* position: absolute; */
+    bottom: 0;
+    right: 0;
+    z-index: 11;
+}
+
+.two {
+    background-color: lightblue;
+    /* position: absolute; */
+    bottom: -10px;
+    right: 0;
+
+    z-index: 10;
+}
+
+.three {
+    background-color: lightseagreen;
+    /* position: absolute; */
+    bottom: 0;
+    right: 0;
+    z-index: 8;
+}
+
+@media (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }

@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+
+    text-decoration: none;
+    letter-spacing: 2px;
+
+    line-height: 125%;
+
+    /* text-shadow: 13px 7px 4px rgba(150, 150, 150, 0.88); */
+}
+
+h1 .name {
+    text-transform: capitalize;
+}
+
+h1:hover {
+    color: orange;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+
+.list {
+    list-style-type: circle;
+    /* list-style-image: url('https://www.euractiv.com/wp-content/uploads/sites/2/2018/10/Gates_EUflag-800x450.jpg') */
+}
+
+.list li {
+    color: red;
+}
