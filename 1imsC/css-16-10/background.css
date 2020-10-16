@@ -1,0 +1,26 @@
+.background {
+    width: 200px;
+    height: 200px;
+
+    /* Background */
+    background-color: pink;
+    background-image: url('https://www.euractiv.com/wp-content/uploads/sites/2/2018/10/Gates_EUflag-800x450.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-size: cover;
+
+    /* Border */
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: blue; */
+
+    border: 10px solid blue;
+    /* border-top-color: red; */
+
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: "Pacifico", "Arial", "Verdana", sans-serif;
+}

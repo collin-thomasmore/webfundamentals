@@ -1,0 +1,54 @@
+.card {
+    background-color: lightcoral;
+    border: 10px solid black;
+
+    font-size: 48px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    margin: 20px;
+
+    width: 50%;
+    height: 300px;
+
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: normal;
+
+    font-style: italic;
+    /* line-height: 250px; */
+    text-decoration: overline;
+
+    /* text-shadow: 12px 26px 2px rgba(150, 150, 150, 1); */
+}
+
+.name {
+    text-transform: capitalize;
+}
+
+a, a:link {
+    color: green;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: purple;
+}
+
+h1:hover {
+    color: orange;
+    cursor: crosshair;
+}
