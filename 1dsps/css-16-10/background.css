@@ -64,3 +64,8 @@ a:hover {
 a:active {
     color: black;
 }
+
+.list {
+    list-style-type: circle;
+    /* list-style-image: url('https://www.euractiv.com/wp-content/uploads/sites/2/2018/10/Gates_EUflag-800x450.jpg'); */
+}
