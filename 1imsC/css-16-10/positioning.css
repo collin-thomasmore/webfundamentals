@@ -1,0 +1,83 @@
+/* .list {
+    list-style-type: none;
+}
+
+.heading1 {
+    background-color: yellow;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.heading2 {
+    background-color: pink;
+}
+
+.smalltext {
+    background-color: green;
+    display: none;
+    height: 100px;
+    width: 100px;
+}
+
+.layout-75 {
+    background-color: pink;
+    display: inline-block;
+    width: 75%;
+    padding: 0;
+    margin: 0;
+}
+
+.layout-25 {
+    background-color: yellow;
+    display: inline-block;
+    width: 25%;
+    padding: 0;
+    margin: 0;
+} */
+
+.parent {
+    background-color: pink;
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+}
+.child {
+    background-color: green;
+    width: 1000px;
+    height: 50px;
+}
+
+.numbers {
+    font-size: 42px;
+    padding: 20px;
+    background-color: lightcyan;
+
+    position: relative;
+    width: 100%;
+}
+
+.one {
+    background-color: lightcoral;
+
+    position: relative;
+}
+
+.two {
+    background-color: lightsalmon;
+
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+
+    z-index: 10;
+}
+
+.three {
+    background-color: lightgoldenrodyellow;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    z-index: 11;
+}
