@@ -1,0 +1,72 @@
+.numbers {
+    font-size: 24px;
+    padding: 20px;
+    background-color: lightsalmon;
+    margin-top: 200px;
+
+    position: relative;
+}
+
+.one {
+    background-color: lightgreen;
+    /* position: relative;
+    left: 20px;
+    top: 40px; */
+}
+
+.two {
+    background-color: brown;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    z-index: 10;
+}
+
+.three {
+    background-color: red;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 11;
+
+}
+
+.parent {
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    background-color: pink;
+    overflow-x: scroll;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column {
+    background: pink;
+
+    width: 100%;
+}
+
+.column-red {
+    background: red;
+}
+
+.child {
+    display: inline-block;
+    height: 20px;
+    width: 1000px;
+    background-color: red;
+}
+
+@media (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
