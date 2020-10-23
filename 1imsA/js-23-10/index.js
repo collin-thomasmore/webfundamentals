@@ -66,7 +66,7 @@ console.log(typeof colors);
 var person = {
     firstname: "Collin",
     name: "Van der Vorst",
-    age: 29,
+    age: null,
     hasGoats: true,
     chickens: [
         "Chicken1",
