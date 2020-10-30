@@ -43,8 +43,6 @@ console.log(document.querySelectorAll("#colorpicker li"));
 
 var colorItems = document.querySelectorAll("#colorpicker li");
 
-
-
 function changeColor(element) {
     element.style.color = element.innerText;
     element.style.backgroundColor = "brown";
