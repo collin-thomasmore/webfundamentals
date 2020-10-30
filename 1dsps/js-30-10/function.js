@@ -29,6 +29,7 @@
 //     document.querySelector("body").style.backgroundColor = "green";
 // }
 
+// Check if this commment is the repo on github
 
 var colorList = document.querySelector("#colorlist").children;
 
