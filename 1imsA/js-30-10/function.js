@@ -38,7 +38,6 @@ function changeColor(color) {
 //     this.style.backgroundColor = "orange";
 //     changeColor("green");
 // });
-
 console.log(document.querySelectorAll("#colorpicker li"));
 
 var colorItems = document.querySelectorAll("#colorpicker li");
