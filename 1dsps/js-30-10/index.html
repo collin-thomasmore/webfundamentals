@@ -4,11 +4,24 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <style>
+            h1 span {
+                color: red;
+            }
+
+            .heading {
+                text-decoration: underline;
+            }
+
+            .heading-green {
+                color: green;
+            }
+        </style>
     </head>
 
     <body>
-        
-        <nav>
+    
+        <nav id="navigation">
             <ul>
                 <li>
                     item1
@@ -20,20 +33,27 @@
             </ul>
         </nav>
 
-        <h1>
-            the Document
+        <h1 class="heading" id="heading1">
+            the <span>Document</span>
         </h1>
 
-        <h2>
+        <h2 class="heading2">
             Almost vacation
         </h2>
 
-        <h2>
+        <h2 class="heading2">
+            Second
+        </h2>
+
+        <h2 class="heading2">
             Give me weekend please
         </h2>
-        
+
+        <div id="footer">
+            <h2> first footer line </h2>
+        </div>
+
         <script src="./index.js">
         </script>
-
     </body>
 </html>
