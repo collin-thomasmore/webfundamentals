@@ -39,10 +39,8 @@ function changeColor(listitem) {
     listitem.style.backgroundColor = "black";
 }
 
-for (var index = 0; index < 3; index++) {
-    console.log(colorList[index]);
+for (var index = 0; index < colorList.length; index++) {
     colorList[index].addEventListener("click", function() {
-        console.log(this);
-        changeColor(colorList[index]);
+        changeColor(this);
     });
 }
