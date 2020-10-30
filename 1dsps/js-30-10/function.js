@@ -30,8 +30,6 @@
 // }
 
 
-
-
 var colorList = document.querySelector("#colorlist").children;
 
 function changeColor(listitem) {
