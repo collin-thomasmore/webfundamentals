@@ -57,5 +57,10 @@ headingBottom.innerHTML = "Toegevoegd op het einde";
 
 // document.querySelector("body").append("Toegevoegd op het einde");
 
-var nav = document.querySelector("#navigation");
-document.body.removeChild(nav);
+//document.body.removeChild(nav);
+
+console.log(document.querySelectorAll("h1")[0]);
+
+// document.querySelectorAll("h1")[0]
+// ===
+// document.querySelector("h1")
