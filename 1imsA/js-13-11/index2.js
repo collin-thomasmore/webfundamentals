@@ -17,12 +17,15 @@ var user = {
     },
     getFullName: function() {
         return this.firstname + " " + this.name;
+    },
+    setAge: function(age) {
+        this.age = age;
     }
 };
 
 var fullname = user.getFullName();
-
-console.log(fullname);
+user.setAge(30);
+console.log(user);
 
 // for (var attributeName in user) {
 //     if (typeof user[attributeName] == "object") {
