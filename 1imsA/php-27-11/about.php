@@ -102,3 +102,5 @@
         "userPermissions"
     );
     var_dump($userList);
+
+    $password = "password12345";
