@@ -1,33 +1,36 @@
 <?php
+    function addBreak() {
+        echo "<br/>";
+    }
     // String
     var_dump('About');
-    echo "<br/>";
+    addBreak();
 
     var_dump("About");
-    echo "<br/>";
+    addBreak();
 
     var_dump("Collin's code");
-    echo "<br/>";
+    addBreak();
 
     var_dump("Collin's \"awesome\"code");
-    echo "<br/>";
+    addBreak();
 
     var_dump("Collin " . "is " . "awesome");
-    echo "<br/>";
+    addBreak();
 
     // Nummerkes
     var_dump(10);
-    echo "<br/>";
+    addBreak();
 
     var_dump(10.5);
-    echo "<br/>";
+    addBreak();
 
     // Boolean (true or false)
     var_dump(true);
-    echo "<br/>";
+    addBreak();
 
     var_dump(false);
-    echo "<br/>";
+    addBreak();
 
     // Variables
     $city;
@@ -81,8 +84,21 @@
         var_dump($userid . " = " . $user["name"] . " " . $user["firstname"]);
         echo "<br/>";
 
-        foreach($user as $value) {
-            echo $value;
+        foreach($user as $key => $value) {
+            echo $key . " : " . $value;
             echo "<br/>";
         }
     }
+
+    // Users 
+    $userList = array(
+        "user1" => array(
+            "firstname" => "collin",
+            "lastname" => "van der vorst",
+            "age" => 29
+        ),
+        "user2" => "Corentin",
+        "user3" => "Rehtse",
+        "userPermissions"
+    );
+    var_dump($userList);
