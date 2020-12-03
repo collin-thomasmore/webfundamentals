@@ -9,7 +9,7 @@
         </script>
     </head>
     <body>
-        <form action="./fruit.php" method="get">
+        <form action="./fruit.php" method="get" id="form">
             <label for="color">color</label>
             <input type="text" id="color" name="color" />
             <input type="submit" value="give me a fruitname">
@@ -18,7 +18,7 @@
         <?php 
             $color = $_GET["color"]; 
             var_dump($color);
-            
+
             switch ($color) {
                 case "orange":
                     echo "orange";
