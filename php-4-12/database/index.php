@@ -16,7 +16,21 @@
             // Make the connection
             $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
-            var_dump($conn);
+            // Check if the connection is working
+            if ($conn == false) {
+                // Stop met de php code
+                die("Geen database connectie");
+            }
+
+            // Prepare the sql statement
+            $sqlQuery = "SELECT * FROM bets";
+            $result = mysqli_query($conn, $sqlQuery);
+
+            $bets = $result->fetch_all(MYSQLI_ASSOC);
+            
+            foreach($bets as $bet) {
+                var_dump($bet["username"]);
+            }
         ?>
     </body>
 </html>
