@@ -7,29 +7,18 @@
     </head>
     <body>
         <?php
-            // Credentials om te connecteren met een database
-            $dbServername = "ID291816_bets.db.webhosting.be"; //127.0.0.1 -> localhost
-            $dbUsername = "ID291816_bets"; // root
-            $dbPassword = "WeLoveWeb2020"; // root
-            $dbName = "ID291816_bets"; // sports
+            include_once "./includes/db.php";
 
-            // Make the connection
-            $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
+            $users = getQuery("SELECT * FROM bets");
 
-            // Check if the connection is working
-            if ($conn == false) {
-                // Stop met de php code
-                die("Geen database connectie");
+            foreach($users as $user) {
+                var_dump($user["username"]);
             }
 
-            // Prepare the sql statement
-            $sqlQuery = "SELECT * FROM bets";
-            $result = mysqli_query($conn, $sqlQuery);
+            $products = getQuery("SELECT * FROM products");
 
-            $bets = $result->fetch_all(MYSQLI_ASSOC);
-            
-            foreach($bets as $bet) {
-                var_dump($bet["username"]);
+            foreach($products as $product) {
+                var_dump($product["name"]);
             }
         ?>
     </body>
