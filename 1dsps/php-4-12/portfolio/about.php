@@ -9,12 +9,8 @@
         <!-- Header -->
         <?php
             include "./components/header.php";
-
-            echo $headerVariable;
-
-            printMyName();
         ?>
-
+    
         <!-- Main content -->
         <main>
             <h1>
@@ -23,8 +19,8 @@
         </main>
 
         <!-- Footer -->
-        <footer>
-            Made with love by Collin
-        </footer>
+        <?php
+            include "./components/footer.php";
+        ?>
     </body>
 </html>
