@@ -8,7 +8,7 @@
     <body>
         <!-- Header -->
         <?php
-            include "components/header.php";
+            include "./components/header.php";
         ?>
 
         <!-- Main -->
@@ -17,5 +17,10 @@
                 Projects
             </h1>
         </main>
+
+        <!-- Footer -->
+        <?php
+            include "./components/footer.php";
+        ?>
     </body>
 </html>

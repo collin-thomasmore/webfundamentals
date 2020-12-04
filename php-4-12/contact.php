@@ -17,5 +17,10 @@
                 Contact
             </h1>
         </main>
+
+        <!-- Footer -->
+        <?php
+            include "components/footer.php"
+        ?>
     </body>
 </html>

@@ -6,6 +6,11 @@
         <title>Document</title>
     </head>
     <body>
+        <!-- Includes -->
+        <?php
+            include_once "./includes/headers.php";
+        ?>
+
         <!-- Header -->
         <?php
             include "components/header.php";
@@ -13,9 +18,14 @@
 
         <!-- Main -->
         <main>
-            <h1>
-                Homepage
-            </h1>
+            <?php
+                createHeader("Homepage");
+            ?>
         </main>
+
+        <!-- Footer -->
+        <?php
+            include "components/footer.php"
+        ?>
     </body>
 </html>
