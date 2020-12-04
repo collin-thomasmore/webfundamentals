@@ -36,3 +36,16 @@
         // Return associated array of the results
         return $result->fetch_all(MYSQLI_ASSOC);
     }
+
+    function insertQuery($sqlQuery) {
+        // Add product
+        $conn = makeDbConnection();
+
+        // Prepare the sql statement
+        $result = mysqli_query($conn, $sqlQuery);
+
+        // Connection close
+        closeConnection($conn);
+
+        return $result;
+    }
