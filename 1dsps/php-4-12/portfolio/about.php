@@ -9,6 +9,10 @@
         <!-- Header -->
         <?php
             include "./components/header.php";
+
+            echo $headerVariable;
+
+            printMyName();
         ?>
 
         <!-- Main content -->
