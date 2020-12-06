@@ -14,7 +14,7 @@
             // Loop through the result 
             $users = getQuery("SELECT * FROM users");
 
-            insertQuery("INSERT INTO users (name) VALUES ('collin the great')");
+            // insertQuery("INSERT INTO users (name) VALUES ('collin the great')");
 
             foreach ($users as $user) {
         ?>

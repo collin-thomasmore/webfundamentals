@@ -17,7 +17,7 @@
         return $conn;
 
     }
-
+    
     function getQuery($sqlQuery) {
         // Make connection with the DB
         $conn = makeConnectionWithDb();
