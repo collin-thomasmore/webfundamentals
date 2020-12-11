@@ -14,12 +14,21 @@
     <!-- Header --> 
     <?php
         include "./components/header.php";
+
+        if(isset($_GET['productname'])) {
+            $productname = $_GET["productname"];
+            // insertQuery("INSERT INTO `products` (`id`, `name`) VALUES (NULL, ' $productname');");
+        }
+
     ?>
 
     <!-- Main -->
     <main>
         <h1> Product page </h1>
 
+        <h2>
+            Overview products
+        </h2>
         <ul>
             <?php
                 $products = getQuery("SELECT * FROM products");
@@ -35,6 +44,23 @@
                 }
             ?>
         </ul>
+
+        <h2> 
+            Create new product
+        </h2>
+
+        <form action="./product.php" method="GET">
+            <!-- Name -->
+            <label for="productname">
+                Product name
+            </label>
+            <input type="text" id="productname" name="productname" placeholder="fill in your productname" required />
+            <br/>
+
+
+            <!-- Submit -->
+            <input type="submit" value="Voeg product toe" />
+        </form>
     </main>
 
     <!-- Footer -->

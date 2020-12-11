@@ -49,5 +49,3 @@
         // Een resultaat gaan terrugen
         return $status;
     }
-
-    // insertQuery("INSERT INTO `products` (`id`, `name`) VALUES (NULL, 'collin tha wizard');");
