@@ -2,7 +2,7 @@
     function makeConnectionWithDb() {
         // MySql credentials
         $dbServername = "ID291816_bets.db.webhosting.be"; // locations of your server (combell/localhost (127.0.0.1)
-        $dbUsername = "ID291816_bets";
+        $dbUsername = "ID291816_betseee";
         $dbPassword = "WeLoveWeb2020";
         $dbName = "ID291816_bets";
 
