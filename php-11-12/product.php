@@ -14,12 +14,6 @@
     <!-- Header --> 
     <?php
         include "./components/header.php";
-
-        if(isset($_GET['productname'])) {
-            $productname = $_GET["productname"];
-            // insertQuery("INSERT INTO `products` (`id`, `name`) VALUES (NULL, ' $productname');");
-        }
-
     ?>
 
     <!-- Main -->
@@ -49,7 +43,7 @@
             Create new product
         </h2>
 
-        <form action="./product.php" method="GET">
+        <form action="./controllers/product.php" method="POST">
             <!-- Name -->
             <label for="productname">
                 Product name
