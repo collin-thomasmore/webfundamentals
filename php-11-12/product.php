@@ -14,6 +14,7 @@
     <!-- Header --> 
     <?php
         include "./components/header.php";
+        
     ?>
 
     <!-- Main -->
